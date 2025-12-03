@@ -1,0 +1,12 @@
+import Book from './Book';
+import './App.css';
+
+function App() {
+  return (
+    <div className="container">
+      <Book />
+    </div>
+  );
+}
+
+export default App
