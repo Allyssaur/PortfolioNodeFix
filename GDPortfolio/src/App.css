@@ -1,27 +1,18 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.page-content {
+body, html {
+  height: 100dvh;
+  width: 100dvw;
+  background: #000;
+  overflow: hidden;
+  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  width: 370px;
-  height: 500px;
-  color: white;
 }
-
-.cover {
-  font-weight: bold;
-  background-image: url("https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages.png?raw=true");
-  background-size: 370px 500px;
-}
-
-.page2 {
-  background-image: url("")
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding: 10px;
 }
 
 .container {
@@ -32,15 +23,46 @@
   align-items: center;
 }
 
-.card {
-  padding: 2em;
+.page{
+  width: 400px;
+  height: auto;
 }
 
-.read-the-docs {
-  color: #888;
+.page-content {
+  width: 400px;
+  height: auto;
+}
+
+.page-header {
+  font-size: 10px;
+}
+
+.page-text {
+  font-size: 15px;
+}
+
+.page-cover {
+  width: 370px;
+  height: 100%;
+  background-image: url("https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages.png?raw=true");
+  background-size: 370px 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.page1 {
+  width: 370px;
+  height: 100%;
+  background-image: url("https://github.com/Allyssaur/PortfolioNodeFix/blob/main/GDPortfolio/src/assets/ArtistGuidePages2.png?raw=true");
+  background-size: 370px auto;
+}
+
+.card {
+  padding: 1em;
 }
 
 .demoPage {
-  background: #fff;
+  width: 370px;
+  height: 400px;
   color: #000;
 }
