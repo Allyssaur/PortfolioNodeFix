@@ -8,12 +8,16 @@ function Book (props) {
 
     return (
         <HTMLFlipBook 
-            width={400} 
+            width={370} 
             height={450}
             maxShadowOpacity={0.5}
             drawShadow={true}
             showCover={true}
             size="fixed"
+            minWidth={315}
+            maxWidth={1000}
+            minHeight={400}
+            maxHeight={1533}
         >
             <div className="demoPage" style={{ background: 'transparent' }}>
                 <div className="page-content page-cover"> <h1>Cover</h1>
@@ -24,18 +28,97 @@ function Book (props) {
                 </div>
             </div>
             <div className="demoPage" style={{ background: 'transparent' }}>
-                <div className=" page-content page1"><h1>Page 2</h1>
+                <div className=" page-content page2"><h1>Page 2</h1>
                 </div>
             </div>
               <div className="demoPage" style={{ background: 'transparent' }}>
-                <div className=" page-content page1"><h1>Page 3</h1>
+                <div className=" page-content page3"><h1>Page 3</h1>
                 </div>
             </div>
               <div className="demoPage" style={{ background: 'transparent' }}>
-                <div className=" page-content page1"><h1>Page 4</h1>
+                <div className=" page-content page4"><h1>Page 4</h1>
                 </div>
             </div>
-            
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className="page-content page5"> <h1>Page 5</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page6"><h1>Page 6</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page7"><h1>Page 7</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page8"><h1>Page 8</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className="page-content page9"> <h1>Page 9</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page10"><h1>Page 10</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page11"><h1>Page 11</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page12"><h1>Page 12</h1>
+                </div>
+            </div>
+                        <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className="page-content page13"> <h1>Page 13</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page14"><h1>Page 14</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page15"><h1>Page 15</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page16"><h1>Page 16</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className="page-content page17"> <h1>Page 17</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page18"><h1>Page 18</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page19"><h1>Page 19</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page20"><h1>Page 20</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className="page-content page21"> <h1>Page 21</h1>
+                </div>
+            </div>
+            <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page22"><h1>Page 22</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page23"><h1>Page 23</h1>
+                </div>
+            </div>
+              <div className="demoPage" style={{ background: 'transparent' }}>
+                <div className=" page-content page24"><h1>Page 24</h1>
+                </div>
+            </div>
         </HTMLFlipBook>
     );
 }
